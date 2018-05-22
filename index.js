@@ -1,0 +1,1 @@
+import('./src/main').then(module => module.default());

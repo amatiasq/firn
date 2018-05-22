@@ -1,0 +1,24 @@
+{
+  "name": "firn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --experimental-modules index.js",
+    "dev": "nodemon -x 'node --experimental-modules' index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "googleapis": "^30.0.0",
+    "stoppable": "^1.0.6"
+  },
+  "devDependencies": {
+    "google-auth-library": "^1.5.0"
+  },
+  "importSort": {
+    ".js, .jsx, .es6, .es, .mjs": {
+      "style": "module-compact"
+    }
+  }
+}
